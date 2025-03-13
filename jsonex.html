@@ -1,0 +1,17 @@
+<html>
+<head>
+    
+</head>
+<body>
+    <script>
+        let emp_obj = {
+            "employees": [
+                {"firstName":"John", "lastName":"Doe"},
+                {"firstName":"Anna", "lastName":"ABC"}
+            ]
+        };
+        let text = JSON.stringify(emp_obj, null, 4);
+        document.getElementById("output").textContent = text;
+    </script>
+</body>
+</html>
